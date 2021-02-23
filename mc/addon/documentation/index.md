@@ -1,4 +1,4 @@
-请选择版本 [beta版](beta/index.md)
+请选择版本 [beta版](./beta/)
 
 [1.16.200.2](1.16.200.2/Index.html)  
 [1.16.100.4](1.16.100.4/Index.html)  
