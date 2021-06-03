@@ -11,3 +11,7 @@
 ## mc server
 
 <https://www.akkocloud.com/>
+
+## manage
+
+<https://portal.xfywz.cn/clientarea.php?action=productdetails&id=968&tpl=index>
