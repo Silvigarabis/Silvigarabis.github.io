@@ -10,6 +10,8 @@
 
 <https://g79.gdl.netease.com/mcpe-release_20200922_1.20-1.20.5.109731-Publish-20201119205524_netease_47_x19_840109731_20201119_210124.apk>  
 
-<https://g79.gdl.netease.com/mcpe-release_20201116_1.21-1.21.0.114951-Publish-20210112015033_netease_47_x19_840114951_20210112_020218.apk>  
-
 <https://g79.gdl.netease.com/mcpe-release_20201116_1.21-1.21.5.115731-Publish-20210118214000_netease_47_x19_840115731_20210118_215129.apk>
+
+<https://g79.gdl.netease.com/mcpe-release_20210125_1.22-1.22.0.121404-Publish-20210331213851_netease_47_x19_840121404_20210331_215054.apk>
+
+<https://g79.gdl.netease.com/mcpe-release_20210125_1.22-1.22.30.129392-1624345248_sign.apk >
