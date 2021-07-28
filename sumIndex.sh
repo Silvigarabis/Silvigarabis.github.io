@@ -24,7 +24,10 @@ EOM
       if [ -f "$f" ]; then
         t="${f##*.}"
         if [[ "$t" = md || "$t" = html || "$t" = htm ]]; then
-          echo "[${f%.*}](./${f%.*})  "
+          fi="${f%.*}"
+          if [ "$fi" != index ]; then
+            echo "[${fi}](./${fi})  "
+          fi
         else
           echo "[$f](./$f)  "
         fi
