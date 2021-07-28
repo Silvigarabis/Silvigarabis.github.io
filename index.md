@@ -1,22 +1,16 @@
-# index
+# Index of /
 
 [favourite](./favourite/)
 
 [mc](./mc/)
 
-[media](./media/)
-
-[music](./music/)
-
-[oldpg](./oldpg/)
-
-[passage](./passage/)
-
 [server](./server/)
 
 [tool](./tool/)
 
-[favicon.ico](./favicon.ico)
+[favicon.ico](./favicon.ico/)
 
-[index.md](./index.md)
+[index.md](./index.md/)
+
+[sumIndex.sh](./sumIndex.sh/)
 

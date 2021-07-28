@@ -1,2 +1,10 @@
+# Index of /mc/addon/
+
 [documentation](./documentation/)
-[note.md](./note.md)
+
+[download](./download/)
+
+[index.md](./index.md/)
+
+[note.md](./note.md/)
+
