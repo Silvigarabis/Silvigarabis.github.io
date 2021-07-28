@@ -1,4 +1,4 @@
 # Index of /favourite/
 
-[index.md](./index.md/)
-
+[../](./../)  
+[index.md](./index.md/)  
