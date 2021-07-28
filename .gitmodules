@@ -1,3 +1,7 @@
 [submodule "tool/baidux"]
 	path = tool/baidux
 	url = git@github.com:wolfbolin/baidux.git
+[submodule "tool/unlock-music"]
+	path = tool/unlock-music
+	url = git@github.com:ix64/unlock-music.git
+	branch = gh-pages
