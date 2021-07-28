@@ -1,8 +1,8 @@
 # Index of /tool/
 
-[baidu](./baidu/)
+[baidu/](./baidu/)
 
-[unlock-music](./unlock-music/)
+[unlock-music/](./unlock-music/)
 
 [index.md](./index.md/)
 

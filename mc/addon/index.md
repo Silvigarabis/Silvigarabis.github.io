@@ -1,8 +1,8 @@
 # Index of /mc/addon/
 
-[documentation](./documentation/)
+[documentation/](./documentation/)
 
-[download](./download/)
+[download/](./download/)
 
 [index.md](./index.md/)
 

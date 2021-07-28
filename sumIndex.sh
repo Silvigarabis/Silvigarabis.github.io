@@ -14,7 +14,7 @@ EOM
           cd "$d"
           eval "$FUNCNAME"
         )
-        echo "[$d](./$d/)
+        echo "[$d/](./$d/)
 "
       fi
     done

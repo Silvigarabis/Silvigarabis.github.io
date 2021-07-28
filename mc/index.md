@@ -1,12 +1,12 @@
 # Index of /mc/
 
-[addon](./addon/)
+[addon/](./addon/)
 
-[history](./history/)
+[history/](./history/)
 
-[how-use-command](./how-use-command/)
+[how-use-command/](./how-use-command/)
 
-[portal](./portal/)
+[portal/](./portal/)
 
 [NeteaseMC-history.md](./NeteaseMC-history.md/)
 

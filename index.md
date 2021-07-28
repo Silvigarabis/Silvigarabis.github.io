@@ -1,12 +1,12 @@
 # Index of /
 
-[favourite](./favourite/)
+[favourite/](./favourite/)
 
-[mc](./mc/)
+[mc/](./mc/)
 
-[server](./server/)
+[server/](./server/)
 
-[tool](./tool/)
+[tool/](./tool/)
 
 [favicon.ico](./favicon.ico/)
 
