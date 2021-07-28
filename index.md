@@ -1,13 +1,13 @@
 # Index of /
 
 [favourite/](./favourite/)  
-[mc/](./mc/)  
 [server/](./server/)  
 [tool/](./tool/)  
-[favicon.ico](./favicon.ico/)  
-[index.md](./index.md/)  
-[sumIndex.sh](./sumIndex.sh/)  
-
+[favicon.ico/](./favicon.ico)  
+[favourite](./favourite)  
+[index](./index)  
+[index_attach.txt/](./index_attach.txt)  
+[sumIndex.sh/](./sumIndex.sh)  
 ---
 
 ## MC

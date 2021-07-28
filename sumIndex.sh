@@ -22,9 +22,17 @@ EOM
     done
     for f in *; do
       if [ -f "$f" ]; then
-        echo "[$f](./$f/)  "
+        t="${f##*.}"
+        if [[ "$t" = md || "$t" = html || "$t" = htm ]]; then
+          echo "[${f%.*}](./${f%.*})  "
+        else
+          echo "[$f/](./$f)  "
+        fi
       fi
     done
+    if [ -f index_attach.txt ]; then
+      cat index_attach.txt
+    fi
   } > index.md
 }
 cd "$(git rev-parse --show-toplevel)"

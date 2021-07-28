@@ -1,5 +1,5 @@
 # Index of /server/
 
 [../](./../)  
-[imc.md](./imc.md/)  
-[index.md](./index.md/)  
+[imc](./imc)  
+[index](./index)  
