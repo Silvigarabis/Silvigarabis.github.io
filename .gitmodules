@@ -1,0 +1,3 @@
+[submodule "tool/baidux"]
+	path = tool/baidux
+	url = git@github.com:wolfbolin/baidux.git
