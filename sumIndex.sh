@@ -26,7 +26,7 @@ EOM
         if [[ "$t" = md || "$t" = html || "$t" = htm ]]; then
           echo "[${f%.*}](./${f%.*})  "
         else
-          echo "[$f/](./$f)  "
+          echo "[$f](./$f)  "
         fi
       fi
     done
