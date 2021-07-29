@@ -1,4 +1,4 @@
-# Index of /tool/
+# Index of /tool
 
 [../](./../)  
 [baidux/](./baidux/)  

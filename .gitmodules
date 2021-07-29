@@ -5,3 +5,7 @@
 	path = tool/unlock-music
 	url = https://github.com/ix64/unlock-music.git
 	branch = gh-pages
+[submodule "mctool/blockbench"]
+	path = mctool/blockbench
+	url = https://github.com/JannisX11/blockbench.git
+	branch = gh-pages

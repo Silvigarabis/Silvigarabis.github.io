@@ -1,4 +1,4 @@
-# Index of /server/
+# Index of /server
 
 [../](./../)  
-[imc](./imc)  
+[**imc**](./imc)  

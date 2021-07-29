@@ -1,42 +1,44 @@
 sumIndex(){
+  # 如果有html文档
+  # 结束
   if [[ -f index.html || -f index.htm ]]; then
     return
   fi
   {
-    cdir=$()
     cat <<EOM
-# Index of /$(git rev-parse --show-prefix)
+# Index of ${prefix:-/}
 
 EOM
-    if [ -n "$(git rev-parse --show-prefix)" ]; then
+    if [ -n "${prefix}" ]; then
       echo "[../](./../)  "
     fi
     for d in *; do
-      if [ -d "$d" ]; then
+      if [ -d "${d}" ]; then
         (
-          cd "$d"
+          prefix="${prefix}/${d}"
+          cd "${d}"
           eval "$FUNCNAME"
         )
-        echo "[$d/](./$d/)  "
+        echo "[${d}/](./${d}/)  "
       fi
     done
     for f in *; do
-      if [ -f "$f" ]; then
+      if [ -f "${f}" ]; then
         t="${f##*.}"
         if [[ "$t" = md || "$t" = html || "$t" = htm ]]; then
           fi="${f%.*}"
           if [ "$fi" != index ]; then
-            echo "[${fi}](./${fi})  "
+            echo "[**${fi}**](./${fi})  "
           fi
         else
-          echo "[$f](./$f)  "
+          echo "[${f}](./${f})  "
         fi
       fi
     done
-    if [ -f index_attach.txt ]; then
-      cat index_attach.txt
+    if [ -f _index.txt ]; then
+      cat _index.txt
     fi
   } > index.md
 }
-cd "$(git rev-parse --show-toplevel)"
+find -type f -name index.md -delete
 sumIndex
