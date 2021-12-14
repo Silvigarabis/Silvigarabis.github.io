@@ -1,2 +1,2 @@
-Useragent: *
+User-agent: *
 Disallow: /bk/
