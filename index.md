@@ -5,12 +5,14 @@
 暂时鸽子了的模组  
 [GitHub](https://github.com/Silvigarabis/YoniMC)
 [Gitee](https://github.com/Silvigarabis/YoniMC)
+[文档](./YoniMC/)
 
 ## yoni-mcscripts-lib
 
 一个类似于框架的东西？拿来弄Minecraft的脚本挺呗～
 [GitHub](https://github.com/Silvigarabis/yoni-mcscripts-lib)
 [Gitee](https://github.com/Silvigarabis/yoni-mcscripts-lib)
+[文档](./yoni-mcscripts-lib/)
 
 ## HMCL (Hello Minecraft Launcher)
 别走错网站了！[HMCL](https://hmcl.huangyuhui.net/)的下载地址是这个！<https://hmcl.huangyuhui.net/>
