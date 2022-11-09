@@ -56,4 +56,4 @@
 
 ### bedrockdev
 
-前往他们的页面<https:/bedrock.dev/>
+前往他们的页面<https://bedrock.dev/>
