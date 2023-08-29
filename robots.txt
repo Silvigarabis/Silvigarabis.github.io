@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /log/
+
+User-agent: *
+Disallow: /stop-my-2fa-req/
