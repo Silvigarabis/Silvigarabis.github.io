@@ -1,5 +1,7 @@
 # Silvigarabis的链接们
 
+[想不想听音乐？](./fav-music)
+
 ## YoniMC
 一个基岩版模组  
 [链接](./YoniMC)
