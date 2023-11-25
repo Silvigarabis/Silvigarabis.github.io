@@ -1,0 +1,36 @@
+WIP:【命令】使用原始JSON文本向玩家展示可变文本
+
+我们知道，诸如/say /title 的命令中的文本都可以使用目标选择器在其中展示实体的名字。
+例如，为每个玩家显示其半径32米内最近10个怪物：[code]/execute as @a at @s run title @s actionbar 最近10个怪物: @e[r=32,c=10,family=monster][/code]
+这样我们就在文本中插入了不确定的东西，我管这 种文本叫“可变文本”。
+
+类似的，我们有一种更加高级的方法来创建可变文本，就是原始JSON文本。
+
+目前可以使用原始JSON文本的命令只有/tellraw 和 /titleraw，分别对应聊天信息和标题。
+
+这里我不会说怎么创建原始JSON文本，我只是提供一些特殊的例子。如果你想了解[url=https://minecraft.fandom.com/zh/wiki/基岩版原始JSON文本格式]原始JSON文本，请点击此处[/url]。
+
+[code]/titleraw @a title {"rawtext": [{"text": "最终得分: "}, {"score": {"objective": "最终得分", "name": "*"}}]}[/code]
+上方的指令是一个简单的例子，为玩家显示了一道标题，其中使用了原始JSON文本来向每位玩家展示他们在记分项“最终得分”上的分数。
+这里你可能注意到name为“*”，它的意思是“看到文本的人”，这样你就没有必要套个/execute 再显示给所有玩家了，分数将会使用查看者的分数。
+
+上述显示最近实体的例子也可以用/titleraw 重写，使用selector条目：[code]/execute as @a at @s run titleraw @s actionbar {"rawtext": [{"text": "最近10个怪物: "}, {"selector": "@e[r=32,c=10,family=monster]" }]}[/code]
+
+最后是一种更为特殊的办法，在文字中插入占位符，并显示更加多变的文本。
+首先，查看占位符的基本用法：[code]/titleraw @a actionbar {"rawtext": [{"translate": "玩家 %%s 的分数: %%s", "with": {"rawtext": [{"selector": "@s"}, {"score": {"objective": "我的分数", "name": "@s" }}]}}]}[/code]
+占位符需要在translate条目中使用。
+
+[code]/titleraw @a actionbar {"rawtext": [{"translate": "玩家 %%2 的分数: %%1", "with": {"rawtext": [{"score": {"objective": "我的分数", "name": "@s" }}, {"selector": "@s"}]}}]}[/code]
+另一种形式的占位符，定义了参数的接受顺序。
+
+那么，如果参数不够会怎么样？答案是对应的占位符不会得到任何文本内容。
+
+
+（此教程处于正在编写的过程当中，欢迎各位发表意见或建议。）
+
+参考：
+[url=https://minecraft.fandom.com/zh/wiki/命令/titleraw]命令/titleraw[/url]
+[url=https://minecraft.fandom.com/zh/wiki/命令/tellraw]命令/tellraw[/url]
+[url=https://minecraft.fandom.com/zh/wiki/基岩版原始JSON文本格式]基岩版原始JSON文本格式[/url]
+[url=http://wiki.bedrock.dev/commands/tellraw.html#format]原始JSON文本格式的拓展说明（英文）[/url]
+[url=#]（我脑子里的记忆）[/url]
