@@ -1,8 +1,7 @@
 User-agent: *
-Disallow: /lnov/books/
-
-User-agent: *
 Disallow: /logs/
-
-User-agent: *
 Disallow: /baidux/
+Disallow: /lnov/2020/
+Disallow: /lnov/2021/
+Disallow: /lnov/2022/
+Disallow: /lnov/2023/
