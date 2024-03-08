@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /log/
+Disallow: /lnov/books/
 
 User-agent: *
-Disallow: /stop-my-2fa-req/
+Disallow: /logs/
