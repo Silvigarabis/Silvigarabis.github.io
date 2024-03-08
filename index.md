@@ -16,3 +16,17 @@
 ## 泰拉瑞亚 Tshock
 
 [指令大全](./Terraria-Tshock-Commands)
+
+```
+[submodule "tool/baidux"]
+	path = files/tool/baidux
+	url = https://github.com/wolfbolin/baidux.git
+[submodule "tool/unlock-music"]
+	path = files/tool/unlock-music
+	url = https://github.com/ix64/unlock-music.git
+	branch = gh-pages
+[submodule "mctool/blockbench"]
+	path = files/mctool/blockbench
+	url = https://github.com/JannisX11/blockbench.git
+	branch = gh-pages
+```
