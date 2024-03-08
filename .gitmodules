@@ -1,0 +1,3 @@
+[submodule "baidux"]
+	path = baidux
+	url = https://github.com/wolfbolin/baidux.git

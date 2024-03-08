@@ -3,3 +3,6 @@ Disallow: /lnov/books/
 
 User-agent: *
 Disallow: /logs/
+
+User-agent: *
+Disallow: /baidux/

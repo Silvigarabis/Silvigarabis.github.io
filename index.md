@@ -1,55 +1,31 @@
-# Silvigarabis的链接们
+# Silvigarabis.github.io
+
+这里是Silvigarabis的一个展示网页，放了一堆链接。
 
 [想不想听音乐？](./fav-music)
 
-## YoniMC
-一个基岩版模组  
-[链接](./YoniMC)
+[ESplitter](https://github.com/Imeaces/EnchantmentSplitter)  
+: 一个Java Spigot服务器的插件，允许玩家从物品上分离附魔
 
-## HMCL 启动器
-不是我开发的，我只是挂个链接
-[见此处](./HMCL-Origin)
+[yoni-mcscripts-lib](https://github.com/Imeaces/yoni-mcscripts-lib) （停更）
+: 一个使用基岩版SAPI编写的库
 
-## 开发基岩版模组你可能需要的东西
-[此处](./Useful-Links-for-Bedrock-Addon)
+[YoniMC](./YoniMC) （停更）  
+: 一个基岩版模组，包含一些个人想要看见的东西。
 
-## 泰拉瑞亚 Tshock
+[HMCL 启动器](./links/HMCL-Origin)  
+: 一个第三方的Minecraft启动器，由huangyuhui开发，个人比较喜欢
 
-[指令大全](./Terraria-Tshock-Commands)
+[PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)  
+: 一个手机版本的Minecraft Java版启动器，由PojavLauncherTeam开发
 
-```
-[submodule "tool/baidux"]
-	path = files/tool/baidux
-	url = https://github.com/wolfbolin/baidux.git
-[submodule "tool/unlock-music"]
-	path = files/tool/unlock-music
-	url = https://github.com/ix64/unlock-music.git
-	branch = gh-pages
-[submodule "mctool/blockbench"]
-	path = files/mctool/blockbench
-	url = https://github.com/JannisX11/blockbench.git
-	branch = gh-pages
-```
+[blockbench](https://web.blockbench.net/)  
+: Minecraft 模型文件编辑器
 
-```
-# 兮芾的储存库
+[开发基岩版模组帮助链接](./links/Useful-Links-for-Bedrock-Addon)  
 
-暂时什么也没有  
+[泰拉瑞亚 Tshock 指令大全](./Terraria-Tshock-Commands)
 
-## 路径信息
-[附加包相关](./YoniMC "YoniMC")
-a 存储信息
-c 发泄情绪
-fav-music 最近收藏的十首音乐
-
----
-
-<div id="music_bar">
-<p>你想听点音乐吗？</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28921675&auto=1&height=66"></iframe>
-</div>
-
----
+[自己写的一些东西](./lnov/)
 
 [页面存储库](https://github.com/Silvigarabis/Silvigarabis.github.io)
-```
