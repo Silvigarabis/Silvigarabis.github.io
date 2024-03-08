@@ -28,4 +28,6 @@
 
 [自己写的一些东西](./lnov/)
 
+[其他的一些链接](./links/)
+
 [页面存储库](https://github.com/Silvigarabis/Silvigarabis.github.io)
