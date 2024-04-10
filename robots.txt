@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /logs/
 Disallow: /baidux/
+Disallow: /lnov/
 Disallow: /lnov/2020/
 Disallow: /lnov/2021/
 Disallow: /lnov/2022/
