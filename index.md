@@ -30,4 +30,6 @@
 
 [其他的一些链接](./links/)
 
+[Linux firewall-cmd 教程](./texts/linux-firewall-cmd)
+
 [页面存储库](https://github.com/Silvigarabis/Silvigarabis.github.io)
