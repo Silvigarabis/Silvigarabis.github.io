@@ -12,6 +12,6 @@
 |mcstatus-web               |       2|       0|       2|
 |mcping-tool                |       0|       2|       1|
 |Role-Playing-Neko          |       1|       0|       1|
+|mod-maximum-render-distance|       1|       0|       1|
 |VeinMiningAddon            |       0|       0|       0|
 |DataExporter               |       0|       0|       0|
-|mod-maximum-render-distance|       1|       0|       1|
