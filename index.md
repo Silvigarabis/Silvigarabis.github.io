@@ -10,11 +10,12 @@
 [HMCL 启动器](./links/HMCL-Origin)  
 : 一个第三方的Minecraft启动器，由huangyuhui开发，个人比较喜欢
 
-[PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)  
-: 一个手机版本的Minecraft Java版启动器，由PojavLauncherTeam开发
-
 [blockbench](https://web.blockbench.net/)  
 : Minecraft 模型文件编辑器
+
+[手机上的Minecraft Java版启动器](./MinecraftLauncherOnMobilePhone.md)
+- [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)  
+: 一个在手机上运行Minecraft Java版的启动器，由PojavLauncherTeam开发。现在已经停止更新。
 
 [开发基岩版模组帮助链接](./links/Useful-Links-for-Bedrock-Addon)  
 
