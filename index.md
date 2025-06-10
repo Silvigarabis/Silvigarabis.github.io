@@ -1,17 +1,11 @@
 # Silvigarabis.github.io
 
-这里是Silvigarabis的一个展示网页，放了一堆链接。
+这里是Silvigarabis的一个展示网页，存放了一系列来源于各处的链接。
 
 [想不想听音乐？](./fav-music)
 
 [ESplitter](https://github.com/Imeaces/EnchantmentSplitter)  
 : 一个Java Spigot服务器的插件，允许玩家从物品上分离附魔
-
-[yoni-mcscripts-lib](https://github.com/Imeaces/yoni-mcscripts-lib) （停更）
-: 一个使用基岩版SAPI编写的库
-
-[YoniMC](./YoniMC) （停更）  
-: 一个基岩版模组，包含一些个人想要看见的东西。
 
 [HMCL 启动器](./links/HMCL-Origin)  
 : 一个第三方的Minecraft启动器，由huangyuhui开发，个人比较喜欢
@@ -26,10 +20,12 @@
 
 [泰拉瑞亚 Tshock 指令大全](./Terraria-Tshock-Commands)
 
-[自己写的一些东西](./lnov/)
-
 [其他的一些链接](./links/)
 
-[Linux firewall-cmd 教程](./texts/linux-firewall-cmd)
+[自己写的一些东西](./lnov/)
+
+[Linux firewall-cmd 教程（更新中）](./texts/linux-firewall-cmd)
+
+---
 
 [页面存储库](https://github.com/Silvigarabis/Silvigarabis.github.io)
