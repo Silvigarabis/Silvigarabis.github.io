@@ -27,6 +27,8 @@
 
 [Linux firewall-cmd 教程（更新中）](./texts/linux-firewall-cmd)
 
+[关闭Exploit Protection 导致 Vmware Workstation 加载虚拟磁盘时出现“The file is too large”（文件过大）错误](./texts/vmware-file-too-large-causing-by-exploit-protection.md)
+
 ---
 
 [页面存储库](https://github.com/Silvigarabis/Silvigarabis.github.io)
