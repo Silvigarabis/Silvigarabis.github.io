@@ -1,6 +1,6 @@
 # 如何让 Windows 10 更新通知可以在设置中管理
 
-<img width="548" height="198" alt="图片" src="https://github.com/user-attachments/assets/860879d0-5bae-40cf-880f-d46f3dd5780c" />
+![IMG](./assets/disable-windows-update-notificaion/Snipaste_2025-10-03_20-35-46.png)
 
 在 **Windows 10 Pro 22H2** 中，Windows 更新经常会弹出通知，通过 **Windows 通知中心**显示，然而这东西默认情况下无法在“通知和操作”设置中修改。这就很烦人了
 
@@ -13,3 +13,5 @@
 3. 修改`ShowInSettings` 的 DWORD 值为 `1`
 
 完成上述步骤后，“Windows 更新”就可以正常在“通知和操作”设置中显示，从而可以正常修改它的开关或声音等选项。
+
+![IMG](./assets/disable-windows-update-notificaion/Snipaste_2025-10-03_20-44-36.png)
